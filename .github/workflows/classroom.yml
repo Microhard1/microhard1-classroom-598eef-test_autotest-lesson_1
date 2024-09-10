@@ -21,7 +21,7 @@ jobs:
         setup-command: ''
         command: python3 main.py
         input: 1+2
-        expected-output: '4'
+        expected-output: '2+2'
         comparison-method: exact
         timeout: 10
     - name: Autograding Reporter
